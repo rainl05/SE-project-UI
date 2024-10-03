@@ -1,0 +1,60 @@
+.auth-section{
+}
+.body{
+    background-color: black;
+}
+.header{
+    color: blue;
+    border-color: white;
+}
+
+@media (min-width: 501px) {
+    body {
+        background-color:black;
+    }
+    img{
+        visibility: hidden;
+    }
+    h1{
+        color: whitesmoke;
+        font-size: 50px;
+    }
+    h2{
+        color: peru;
+    }
+    h3{
+        color: khaki;
+    }
+    p{
+        font-size: 20px;
+        color: sienna;
+        font-family:'Gill Sans';
+    }
+    label{
+        color: white
+    }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+    body {
+        background-color:indigo;
+    }
+    h1{
+        color: aqua;
+        font-size: 40px;
+    }
+    h2{
+        color: bisque;
+    }
+    h3{
+        color: coral;
+    }
+    p{
+        font-size: 20px;
+        color: darkseagreen;
+        font-family: 'cursive';
+    }
+    label{
+        color: aqua
+    }
+}

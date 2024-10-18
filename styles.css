@@ -10,14 +10,17 @@
 
 @media (min-width: 501px) {
     body {
-        background-color:black;
+        background-color:whitesmoke;
     }
     img{
         visibility: hidden;
     }
     h1{
+        font-family:'Times New Roman', Times, serif;
         color: whitesmoke;
         font-size: 50px;
+        background-image: linear-gradient(aqua, blue);
+
     }
     h2{
         color: peru;
@@ -31,7 +34,11 @@
         font-family:'Gill Sans';
     }
     label{
-        color: white
+        color:blue;
+    }
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        color:blue;
     }
 }
 

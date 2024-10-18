@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Convine</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header> 
-        <center><h1>HOME PAGE</h1></center>
+        <center><h1>Convine</h1></center>
     </header>
+    <center><h2>Welcome Back!</h2></center>
     <section id="auth-section">
         <h2 id="auth-header">Sign In</h2>
         <form id="auth-form">
           <label for="auth-email">Email:</label>
-          <input type="email" id="auth-email" placeholder="Enter your email" required>
+          <input type="email" id="auth-email" placeholder="Enter your email">
     
           <label for="auth-password">Password:</label>
-          <input type="password" id="auth-password" placeholder="Enter your password" required>
+          <input type="password" id="auth-password" placeholder="Enter your password">
     
-          <button type="submit" id="auth-btn">Sign In</button>
+        
+          <button onclick = "location.href = 'home.html'">Sign In</button>
+          
           <p id="auth-switch">Don't have an account? <a href="#" id="switch-to-signup">Sign Up</a></p>
           <p id="auth-switch-back" style="display:none;">Back to  <a href="#">Sign In</a></p>
         </form>

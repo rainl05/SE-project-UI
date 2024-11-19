@@ -97,3 +97,14 @@
     padding: 30px;
     border-radius: 12px;
   }
+
+  .centered-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .centered-list li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }

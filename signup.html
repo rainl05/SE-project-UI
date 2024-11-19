@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="topnav">
+      <center><h1>Convine</h1></center>
+        <div class="dropdown">
+          <button class="dropbtn" >
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="profile.html">Profile</a>
+            <a href="setting.html">Settings</a>
+            <a href="search.html">User Search</a>
+          </div>
+        </div>
+    </div>
+
+
+    <center><h2>Welcome to Convine!</h2></center>
+    <section id="auth-section">
+    <center><h2 id="auth-section">Sign up Here.</h2></center>
+        <form id="auth-form">
+            <center><ul class="centered-list">
+                <li>
+                    <label for="auth-email">Email:</label>
+                    <input type="email" id="auth-email" placeholder="Enter your email">
+                </li>
+                <li>
+                    <label for="auth-email-confirm">Confirm Email:</label>
+                    <input type="email" id="auth-email-confirm" placeholder="Confirm your email">
+                </li>
+                <li>
+                    <label for="auth-password">Password:</label>
+                    <input type="password" id="auth-password" placeholder="Enter your password">
+                </li>
+                <li>
+                    <label for="auth-password-confirm">Confirm Password:</label>
+                    <input type="password" id="auth-password-confirm" placeholder="Confirm your password">
+                </li>
+            </ul></center>
+          
+          
+    
+        
+          <center style="padding-top: 10px;"><button onclick="location.href='home.html'" type="button">
+            Create Account
+          </button></center>
+        </form>
+        
+        <p id="auth-status"></p>
+        <style>
+           .LogIn{
+            text-align: center;
+            margin: 100px auto;
+            width: 40%;
+            background-color: blue;
+            padding: 30px;
+            border-radius: 12px;
+          }
+        </style>
+    </section>
+      
+      <script src = "script.js"></script>
+</body>
+</html>

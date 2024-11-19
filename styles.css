@@ -108,3 +108,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
+  .profileImage {
+    visibility: visible;
+    border-radius: 50%;
+    border: 5px solid #2846a9;
+  }

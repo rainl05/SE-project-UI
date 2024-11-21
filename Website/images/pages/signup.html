@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="topnav">
+      <center><h1>Convine</h1></center>
+        <div class="dropdown">
+          <button class="dropbtn" >
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="profile.html">Profile</a>
+            <a href="setting.html">Settings</a>
+            <a href="search.html">User Search</a>
+          </div>
+        </div>
+    </div>
+
+
+    <center><h2>Welcome to Convine!</h2></center>
+    <section id="auth-section">
+    <center><h2 id="auth-section">Sign up Here.</h2></center>
+        <form id="auth-form">
+            <div style="display: flex; margin-left: 20%;">
+                <div style="width: 35%;">
+                    <center><h2>Enter your information:</h2></center>
+                    <ul class="centered-list" style="width: 60%;">
+                        <li style="width: 200px;">
+                            <label for="auth-email">Email:</label>
+                            <input type="email" id="auth-email" placeholder="Enter your email">
+                        </li>
+                        <li style="width: 200px;">
+                            <label for="auth-email-confirm">Confirm Email:</label>
+                            <input type="email" id="auth-email-confirm" placeholder="Confirm your email">
+                        </li>       
+                        <li style="width: 200px;">
+                            <label for="auth-password">Password:</label>
+                            <input type="password" id="auth-password" placeholder="Enter your password">
+                        </li>
+                        <li style="width: 200px;">
+                            <label for="auth-password-confirm">Confirm Password:</label>
+                            <input type="password" id="auth-password-confirm" placeholder="Confirm your password">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <center><h2>Select a profile picture:</h2></center>
+                    <div style="display: flex;">
+                        <label for="option1"><img class="profileImage" src="https://i.pinimg.com/474x/8c/70/8b/8c708b478e0e71f7599b75b9cc108ddf.jpg"></label><br>
+                        <span style="width: 20px;"></span>
+                        <label for="option2"><img class="profileImage" src="https://i.pinimg.com/564x/d4/7e/9e/d47e9ee0aacc308c43e8e3dc79d18ca3.jpg"></label><br>
+                    </div>
+                    <div style="display: flex;">
+                        <div style="padding-right: 120px;"></div>
+                        <input type="radio" id="option1" name="fav_language" value="option1" checked="checked">
+                        <div style="padding-right: 265px;"></div>
+                        <input type="radio" id="option2" name="fav_language" value="option2">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+          
+            
+    
+        
+          <center style="padding-top: 10px;"><button onclick="location.href='home.html'" type="button">
+            Create Account
+          </button></center>
+        </form>
+
+        <p id="auth-status"></p>
+        <style>
+           .LogIn{
+            text-align: center;
+            margin: 100px auto;
+            width: 40%;
+            background-color: blue;
+            padding: 30px;
+            border-radius: 12px;
+          }
+        </style>
+    </section>
+      
+      <script src = "script.js"></script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convine Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+      .left_block {
+        background-image: linear-gradient(blue, aqua);
+        font-family:'Times New Roman', Times, serif;
+        border-radius: 25px;
+        border:3px solid black;
+        margin-top: 80px;
+        margin-left: 40px;
+        width: 40%;
+        height: 500px;
+        text-align: center;
+
+        float:left;
+
+      }
+
+      .right_block {
+        
+        font-family:'Times New Roman', Times, serif;
+        border-radius: 25px;
+       
+        margin-top: 80px;
+        margin-left:22%;
+        width: 30%;
+        height: 500px;
+        
+
+        float:left;
+
+      }
+
+      .block_headings {
+        color:white;
+        font-family:'Times New Roman', Times, serif;
+        margin: 5px;
+        margin-bottom:0px;
+      }
+
+      .intro {
+        color:white;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 40px;
+        margin: 5px;
+      }
+
+      .events {
+        background-color: rgb(255, 106, 0);
+        border-color:2px solid white;
+        color: white;
+        border-radius: 5px;
+        border: 1px solid white;
+        width:220px;
+        height:130px;
+        font-size:19px;
+        text-align:"center";
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 10px;
+        padding-top: 5px;
+      }
+
+      .section {
+        /* display: inline-block;
+        margin: auto; */
+
+        float:left;
+        margin-left:15px;
+      }
+
+      .right_tab {
+        background-image: linear-gradient(aqua,blue);
+        font-family:'Times New Roman', Times, serif;
+        border-radius: 25px;
+        border:3px solid black;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        
+      }
+
+      .friends {
+        float:left;
+        margin:15px;
+        margin-top:20px;
+        margin-left:40px;
+
+
+      }
+
+      .noti_blocks {
+        width: 90%;
+        height: 40%;
+        border-radius: 25px;
+        background-image: linear-gradient(white, gray);
+        text-align: center;
+        margin:auto;
+        margin-top: 5px;
+
+        color:black;
+        font-size: 18px;
+        font-family: verdana;
+      }
+
+      
+
+      
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <center><h1>Convine</h1></center>
+          <div class="dropdown">
+            <button class="dropbtn" >
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="profile.html">Profile</a>
+              <a href="settings.html">Settings</a>
+              <a href="search.html">User Search</a>
+              <a href="index.html">Log Out</a>
+            </div>
+          </div>
+      </div>
+
+    <div class = "row">
+        <div class = "column"></div>
+        <div class = "column"></div>
+    </div>
+
+    <hr>
+
+    <div class="left_block" title="My Events and Recommended">
+      <h1 class="intro">Welcome back Ricky!</h1>
+      <hr>
+
+      <h2 class="block_headings"> Upcoming Reminders:</h2>
+
+        <div class="section">
+            <center><p class="events" title="Event">
+              <scan style="font-size:24px"><b>Event</b></scan><br>
+              Meeting With Geophrey <br>
+              December 3rd <br>
+              11:00am to 12:00pm
+            </center></p>
+
+        </div>
+        <div class="section">
+          <center><p class="events" title="Assignment">
+            <scan style="font-size:24px"><b>Assignment</b></scan><br>
+            Ch 12 Mini Practicum <br>
+            Due November 31st <br>
+            GCIS-123
+          </center></p>
+        </div>
+
+        <h2 class="block_headings"> Try Something New!</h2>
+
+        <div class="section">
+            <center><p class="events" style="background-color: limegreen;" title="Event">
+              <scan style="font-size:24px"><b>Volunteering</b></scan><br>
+              Firstbyte Garden Volunteering <br>
+              Every Friday<br>
+              @3pm-4pm
+            </center></p>
+
+        </div>
+
+        <div class="section">
+          <center><p class="events" style="background-color: blueviolet;" title="Club">
+            <scan style="font-size:23px"><b>New Club!</b></scan><br>
+            WiC Allies Meeting <br>
+            Every Friday<br>
+            @5pm-6pm
+          </center></p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div>
+      <div class="right_block" title="Friend Requests and Organizations">
+        <div class="right_tab" title="Friend Requests">
+          <h2 class="block_headings"> Friend Requests</h2>
+          <div class="friends">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIfIvRv1PqeWNYzpqQ9tgyV-eFWc31a-F9Ag&s" 
+            alt="Default Profile Pic" width="70px" height="85px" style="border-radius: 100px;">
+
+            <p><b>Drizzy Drake</b> </p>
+          </div>
+
+          <div class="friends">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Elon_Musk_Royal_Society_crop.jpg/800px-Elon_Musk_Royal_Society_crop.jpg" 
+            alt="Default Profile Pic" width="70px" height="85px" style="border-radius: 100px;">
+
+            <p style="color:white;"><b>Elon Musk</b></p>
+          </div>
+
+
+        </div>
+
+
+
+        <div class="right_tab" title="Message Inbox" style="margin-top:100px;background-image: linear-gradient(blue,aqua)">
+          <h2 class="block_headings"> Message Inbox</h2>
+          <div>
+            <p class="noti_blocks"> Tim: Did you see the news about t..</p>
+
+          </div>
+          <div>
+            <p class="noti_blocks"> Unity House: Get ready for this wee...</p>
+
+          </div>
+          <div>
+            <p class="noti_blocks"> Sean: See you later bro.</p>
+
+          </div>
+          <div>
+            <p class="noti_blocks"> Elon Musk: Let's discuss this millio..</p>
+
+          </div>
+          <div>
+            <p class="noti_blocks"> Tyla: Dont ignore me, I love y...</p>
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,115 @@
+.auth-section{
+    text-align: center;
+    margin: 100px auto;
+    width: 40%;
+    background-color: blue;
+    padding: 30px;
+    border-radius: 12px;
+}
+.body{
+    background-color: black;
+}
+.header{
+    color: blue;
+    border-color: white;
+    text-align: center;
+}
+
+@media (min-width: 501px) {
+    body {
+        background-color:whitesmoke;
+    }
+    .topnav{
+        font-family:'Times New Roman', Times, serif;
+        color: whitesmoke;
+        font-size: 50px;
+        background-image: linear-gradient(aqua, blue);
+
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        color: peru;
+    }
+    h3{
+        color: pink;
+        size: 50px;
+    }
+    p{
+        font-size: 20px;
+        color: pink;
+        font-family: cursive;
+    }
+    label{
+        color:blue;
+    }
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        color:blue;
+    }
+}
+
+.dropbtn {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    background-image:url("https://e7.pngegg.com/pngimages/513/277/png-clipart-computer-icons-menu-bar-icon-design-hamburger-button-others-miscellaneous-angle.png");
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: linear-gradient(blue, aqua);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 5 px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+  .LogIn{
+    text-align: center;
+    margin: 100px auto;
+    width: 40%;
+    background-color: blue;
+    padding: 30px;
+    border-radius: 12px;
+  }
+
+  .centered-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .centered-list li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .profileImage {
+    visibility: visible;
+    border-radius: 50%;
+    border: 5px solid #2846a9;
+  }

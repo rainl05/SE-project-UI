@@ -30,6 +30,8 @@ public class Duplexer implements AutoCloseable{
     }
 
     public String recieve(){
-        return scanner.nextLine();
+        String response = scanner.nextLine();
+        System.out.println("<< " + response);
+        return response;
     }
 }

@@ -22,5 +22,5 @@ public enum GuessResult {
     /**
      * The player is out of guesses.
      */
-    OUT_OF_GUESSES
+    OUT_OF_GUESSES;
 }
